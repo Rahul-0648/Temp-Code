@@ -1,0 +1,154 @@
+namespace Digi_Lib
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.Header = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Back = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.mini_btn = new System.Windows.Forms.PictureBox();
+            this.close_btn = new System.Windows.Forms.PictureBox();
+            this.Header.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close_btn)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // Header
+            // 
+            this.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(43)))), ((int)(((byte)(46)))));
+            this.Header.Controls.Add(this.pictureBox3);
+            this.Header.Controls.Add(this.mini_btn);
+            this.Header.Controls.Add(this.close_btn);
+            this.Header.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Header.Location = new System.Drawing.Point(0, 0);
+            this.Header.Name = "Header";
+            this.Header.Size = new System.Drawing.Size(1092, 98);
+            this.Header.TabIndex = 0;
+            this.Header.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(43)))), ((int)(((byte)(46)))));
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 664);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1092, 72);
+            this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // Back
+            // 
+            this.Back.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back.Location = new System.Drawing.Point(0, 98);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(1092, 566);
+            this.Back.TabIndex = 2;
+            this.Back.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Digi_Lib.Properties.Resources.Footer1;
+            this.pictureBox1.Location = new System.Drawing.Point(791, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(301, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Digi_Lib.Properties.Resources.main_text;
+            this.pictureBox3.Location = new System.Drawing.Point(297, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(423, 95);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // mini_btn
+            // 
+            this.mini_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mini_btn.Image = global::Digi_Lib.Properties.Resources.minimize_removebg_preview;
+            this.mini_btn.Location = new System.Drawing.Point(1001, 34);
+            this.mini_btn.Name = "mini_btn";
+            this.mini_btn.Size = new System.Drawing.Size(30, 30);
+            this.mini_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mini_btn.TabIndex = 1;
+            this.mini_btn.TabStop = false;
+            // 
+            // close_btn
+            // 
+            this.close_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.close_btn.Image = global::Digi_Lib.Properties.Resources.stop;
+            this.close_btn.Location = new System.Drawing.Point(1046, 34);
+            this.close_btn.Name = "close_btn";
+            this.close_btn.Size = new System.Drawing.Size(30, 30);
+            this.close_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.close_btn.TabIndex = 0;
+            this.close_btn.TabStop = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1092, 736);
+            this.Controls.Add(this.Back);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.Header);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.Header.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close_btn)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel Header;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Back;
+        private System.Windows.Forms.PictureBox close_btn;
+        private System.Windows.Forms.PictureBox mini_btn;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+    }
+}
+
